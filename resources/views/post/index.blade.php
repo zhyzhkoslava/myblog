@@ -59,6 +59,9 @@
                                 @endforeach
                             </tbody>
                         </table>
+                        <div class="d-flex justify-content-around">
+                            {{ $posts->links() }}
+                        </div>
                     </div>
 
                 </div>
